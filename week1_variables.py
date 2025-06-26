@@ -23,3 +23,29 @@ x,y,z = "Python" , "is" , "awesome"
 print(x,y,z)
 
 
+# Data types - (Day 2)
+
+# list []
+# tuple ()
+name = "Kamogelo"
+age = 21
+height = 1.83
+is_learning = True
+
+print("As i explained ealier that my name is",name,"and I am",age,'.'"I'm",height,"cm tall")
+print("Am I learning?",is_learning)
+print("What is the data type of height?",type(height))
+print("What is the data type of age?",type(age))
+print("What is the data type of name?",type(name))
+print("What is the data type of is_learning?",type(is_learning))
+print(type('21'))
+
+
+
+
+
+
+
+
+
+
