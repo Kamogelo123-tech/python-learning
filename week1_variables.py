@@ -38,7 +38,7 @@ print("What is the data type of height?",type(height))
 print("What is the data type of age?",type(age))
 print("What is the data type of name?",type(name))
 print("What is the data type of is_learning?",type(is_learning))
-print(type('21'))
+print(type('21')) # class 'str'
 
 
 
