@@ -23,7 +23,7 @@ x,y,z = "Python" , "is" , "awesome"
 print(x,y,z)
 
 
-# Data types - (Day 2)
+# Data types, if/else logic and user input - (Day 2)
 
 # list []
 # tuple ()
@@ -40,7 +40,35 @@ print("What is the data type of name?",type(name))
 print("What is the data type of is_learning?",type(is_learning))
 print(type('21')) # class 'str'
 
+print("I have questions for you now")
+age_input = input("How old are you? ")
 
+if age_input.isdigit():
+    age = int(age_input)  # 👈🏾 Now we know the user's real age!
+
+    if age >= 18:
+        print("You're an adult. Welcome!")
+    else:
+        print("Come on, you're young")
+else:
+    print("Enter valid age")
+
+
+
+print("Another one")
+height_input = input("How tall are you? ")
+
+if height_input.replace(".","",1).isdigit():
+    height = float(height_input)  # 👈🏾 Now we know the user's real height!
+
+    if height >= 1.83:
+        print("You're tall! That's good.")
+    elif height >= 1.75:
+        print("Average, not bad")
+    else:
+        print("I'm sorry but you're short")
+else:
+    print("Enter valid height")
 
 
 
